@@ -17,5 +17,6 @@ var_dump(2 === "2");
 var_dump(2 < 5);
 echo"<hr>";
 
-
+echo"var_dump(true xor true)";
+echo"var_dump(true xor false)";
 ?>
