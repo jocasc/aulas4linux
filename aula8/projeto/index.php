@@ -17,6 +17,19 @@
 		<tbody>
 		
 		</tbody>
+
+		<?php if(listaUsuarios()) : ?>
+			<?php foreach (listaUsuarios() as $user) : ?>
+				<tr>
+				<td><?php echo $user['id']; ?></td>
+				<td><?php echo $user['usuario']; ?></td>
+				</tr>
+			<?php endforeach;?>
+		<?php endif;?>
+
+
+
+
 	</table>
 
 	<div class="pull-right">
